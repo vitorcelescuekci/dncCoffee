@@ -1,0 +1,82 @@
+.comprarAgora {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    color: #F6F5FB;
+    background-color: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.modalExternal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modalBox {
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: #ffffff;
+    margin: 8% auto;
+    /* 8% from the top and centered */
+    padding: 0.7rem 1rem;
+    border: 1px solid #888;
+    border-radius: 2rem;
+    width: 40vw;
+    height: auto;
+}
+
+#modalClose {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+    padding: 2rem;
+}
+
+.modalContent h2 {
+    font-size: 39px;
+}
+
+.modalContent p {
+    font-size: 23px;
+}
+
+/* The Close Button */
+.closeButton {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
